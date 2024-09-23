@@ -1,0 +1,479 @@
+.case-title-text{
+    max-width: 1130px;
+    margin-top: 19px;
+}
+.case-banner img{
+    width: 100%;
+    border-radius: 40px;
+}
+.grid-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+#details-statement{
+    margin-top: 30px;
+}
+.case-title .para{
+    margin-top: 10px;
+}
+.case-title h2{
+
+    margin-bottom: 10px;
+}
+.pro-title,.research-text-img,.finding-pad,.project-details,.problem-statement{
+    border-radius: 40px;
+    background: #282828;
+    padding: 54px;
+}
+.pro-title .para{
+    margin-bottom: 10px;
+}
+.challenges-title{
+    text-align: center;
+    margin-bottom: 54px;
+}
+
+.challenges-img{
+    border-radius: 16px;
+}
+
+.research-imgs{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 26px;
+}
+.grid-main{
+    margin-top: 40px;
+}
+
+.finding-pad h3{
+    display: inline;
+    color:  #FFF;
+    font-size: 20px;
+    font-weight: 500;
+}
+.finding-pad .para{
+    display: inline;
+}
+.fine-margin{
+    margin-top: 20px;
+}
+.use-flow-img{
+    border-radius: 16px;
+    margin-top: 54px;
+}
+
+.design-grid img,.wireframing-grid img{
+    width: 100%;
+}
+.many-more{
+    margin-top: 54px;
+    border-radius: 40px;
+    padding: 40px;
+    background: #282828;
+}
+.theory-img{
+    display: flex;
+    justify-content: center;
+}
+.alphabets{
+    text-align: end;
+}
+.many-more-text h2{
+    color:  #888;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 40px;
+}
+.wireframing-grid,.design-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 13px;
+}
+.wireframing-grid-2,.design-grid-2{
+    grid-template-columns: repeat(6,1fr);
+    gap: 20px;
+}
+
+
+.typography-section-main,
+.color-section-main {
+  border-radius: 40px;
+  background: #282828;
+  padding: 54px;
+}
+.secondary-font{
+    margin-top: 14px;
+}
+.lower {
+  text-transform: lowercase;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.font-details {
+  max-width: 50%;
+}
+
+.font {
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 13px;
+  font-family: myfont;
+}
+.font-name {
+  color: #888;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+.inter{
+    font-family: inter;
+}
+.inter h3{
+    font-family: inter;
+}
+.Product-Sans,.Product-Sans h3{
+  font-family: Product Sans;
+}
+.OpenSans,.OpenSans h3{
+    font-family: OpenSans;
+}
+.lato,.lato h3{
+  font-family: lato;
+}
+.primary-font {
+  margin-top: 40px;
+}
+.secondery-font {
+  margin-top: 15px;
+}
+.alphabets h3 {
+  color: #888;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.primary-font .font-details .para{
+    margin-top: 10px;
+}
+.font-name{ 
+    color: #fff;
+}
+
+.theory-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 10px;
+}
+.theory-box{
+    margin-top: 24px;
+}
+.theory-box h3{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.conclusion-main{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.conclusion-main .btn{
+    color: #509EFF;
+    text-decoration: underline;
+}
+.conclusion-main .btn svg path{
+    stroke: #509EFF;
+}
+.conclusion-main .para{
+    margin-bottom: 50px;
+}
+
+.use-flow-text,.wireframing-text,.design-text{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+}
+.target-title{
+    text-align: center;
+    margin-bottom: 54px;
+}
+.targets-main-section{
+    max-width: 1144px;
+    margin:  0 auto;
+}
+.card{
+    border-radius: 120px;
+    display: flex;
+    align-items: flex-start;
+    gap: 28px;
+    margin-left: 34px;
+    max-width: 516px;
+    border: 1px solid  #3D3D3D;
+    background: rgba(41, 41, 41, 0.10);
+    backdrop-filter: blur(17px);
+    -webkit-backdrop-filter: blur(17px);
+    padding: 20px 44px 20px 20px;
+    min-height: 100%;
+}
+.target-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 72px;
+    
+}
+.extra{
+    position: relative;
+    z-index: 2;
+}
+.round{
+    position: absolute;
+    content: "";
+    top: calc(100% - 85%);
+    left: 0px;
+    height: 108px;
+    width: 108px;
+    border-radius: 50%;
+    background-color: #1E5EFF;
+    z-index: -1;
+}
+.card-text h3{
+    color: #FFF;
+font-size: 20px;
+font-weight: 400;
+margin-bottom: 5px;
+}
+.card-number{
+
+margin: auto 0;
+}
+.card-number h3{
+    color: #FFF;
+font-size: 40px;
+font-weight: 700;
+}
+
+.challenges-img img, .use-flow-img img{
+    border-radius: 16px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 1080px){
+    .target-cards{
+        gap: 50px;
+    }
+    .card{
+        padding: 15px;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+
+    .case-banner img{
+        border-radius: 32px;
+    }
+    .pro-title, .research-text-img, .finding-pad, .project-details, .problem-statement{
+        padding: 32px;
+        border-radius: 32px;
+    }
+    .grid-main{
+        gap: 20px;
+    }
+    .theory-main{
+        grid-template-columns: 1fr;
+    }
+    .theory-img{
+        display: flex;
+        justify-content: center;
+    }
+    .flex{
+        flex-direction: column;
+        gap: 12px;
+    }
+    .font-details{
+        max-width: 100%;
+    }
+    .typography-section-main, .color-section-main{
+        padding: 32px;
+    }
+    .alphabets{
+        text-align: start;
+    }
+   
+}
+
+@media only screen and (max-width: 989px){
+
+    .many-more{
+        padding: 15px;
+        border-radius: 24px;
+    }
+    .typography-section-main, .color-section-main{
+        padding: 20px;
+        border-radius: 24px;
+
+    }
+    .target-cards{
+        grid-template-columns: 1fr;
+    }
+    .card{
+        max-width: 100%;
+    }
+    .round{
+        top: 10%;
+        height: 90px;
+        width: 90px;
+    }
+    .theory-main{
+        gap: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 889px){
+
+}
+
+@media only screen and (max-width: 767px){
+    .case-banner img{
+        border-radius: 10px;
+    }
+    .grid-main{
+        grid-template-columns: 1fr;
+    }
+    .research-imgs{
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+
+    }
+    .pro-title, .research-text-img, .finding-pad, .project-details, .problem-statement{
+        padding: 32px 16px;
+        border-radius: 16px;
+    }
+    .grid-main{
+        gap: 32px;
+    }
+
+    .wireframing-grid, .design-grid{
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        border-radius: 16px;
+    }
+    .wireframing-grid-2, .design-grid-2{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .use-flow-text, .wireframing-text, .design-text,.conclusion-main{
+        grid-template-columns: 1fr;
+    }
+
+    .card{
+        border-radius: 40px;
+        gap: 10px;
+    }
+    .round{
+        height: 80px;
+        width: 80px;
+    }
+    .card-number h3{
+        font-size: 32px;
+    }
+    .card-text h3{
+        font-size: 18px;
+    }
+    .target-title,.challenges-title{
+        text-align: start;
+    }
+    .many-more{
+        margin-top: 32px;
+    }
+    .challenges-title.title{
+        margin-bottom: 20px;
+    }
+    .target-title.title{
+        margin-bottom: 62px;
+        text-align: center;
+    }
+    
+}
+
+@media only screen and (max-width: 530px){
+    .card{
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    .card-text {
+        text-align: center;
+    }
+    .round{
+        left: 40%;
+        top: -35px;
+    }
+    .card-number h3{
+        font-size: 22px;
+    }
+    .card-text p.para{
+        font-size: 15px;
+    }
+    .wireframing-grid-2, .design-grid-2{
+        grid-template-columns: 1fr 1fr;
+    }
+  
+   
+    .case-title-text h1{
+        font-size: 32px;
+        margin-top: 12px;
+    }
+    .case-banner.mt{
+        margin-top: 32px;
+    }
+
+    /* .challenges-img img,.use-flow-img img{
+        height: 90vh;
+        max-width: 1400px;
+    } */
+   .scrollable-content{
+         width: 900px;
+    }
+  
+    .challenges-img,.use-flow-img {
+        overflow: auto;
+        position: relative;
+        box-sizing: border-box;
+        padding-bottom: 23px;
+    } 
+    .case-title-svg img{
+        height: 20px;
+        width: 150px;
+    }
+}
+/* Total width */
+::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+/* Background of the scrollbar */
+::-webkit-scrollbar-track {
+    background: #888; 
+}
+
+/* Handle (thumb) of the scrollbar */
+::-webkit-scrollbar-thumb {
+    background: #fff; 
+}
+
