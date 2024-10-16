@@ -122,6 +122,7 @@ ul li {
     font-weight: 400;
     line-height: 20px;
     font-family: myfont;
+    align-items: end;
   
     /* text-decoration: none; */
   }

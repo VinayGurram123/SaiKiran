@@ -19,6 +19,8 @@
     height: 64px;
     width: 64px;
     margin: 0 14px;
+    vertical-align: bottom;
+    margin-bottom: 10px;
 }
   .banner-btns img{
     max-width: 100%;

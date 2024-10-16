@@ -11,6 +11,8 @@
     width: 64px;
     display: unset;
     margin-right: 18px;
+    vertical-align: bottom;
+    margin-bottom: 10px;
 }
 .banner-img {
     margin-bottom: 40px;
@@ -395,8 +397,8 @@ ul li .list-main{
    
       .about-title-main img{
         margin-right: 15px;
-        height: 60px;
-        width: 60px;
+        height: 50px;
+        width: 50px;
       }
       .marquee-slider{
         padding: 20px 0 0;
