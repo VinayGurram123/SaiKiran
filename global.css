@@ -152,7 +152,7 @@ ul li {
     justify-content: space-between;
     /* grid-template-columns: 1.4fr 2fr; */
     /* gap: 20px; */
-    padding: 80px 0 0 0;
+    padding: 120px 0 0 0;
   }
   .footer-title{
     display: flex;
@@ -583,3 +583,13 @@ footer .footer-mail .main-btn {
     margin-top: 13px;
   }
 } 
+
+@media only screen and (max-width: 375px){
+
+  .mail-div span, .mail-div a {
+    font-size: 14px;
+}
+footer .footer-mail .main-btn {
+  padding: 9px 112px;
+}
+}

@@ -12,7 +12,6 @@
     display: unset;
     margin-right: 18px;
     vertical-align: bottom;
-    margin-bottom: 10px;
 }
 .banner-img {
     margin-bottom: 40px;
@@ -33,7 +32,7 @@
     gap: 12px;
 }
 .about-list{
-    max-width: 940px;
+    max-width: 1200px;
     position: relative;
     padding-left: 40px;
     padding-bottom: 120px;
@@ -397,8 +396,8 @@ ul li .list-main{
    
       .about-title-main img{
         margin-right: 15px;
-        height: 50px;
-        width: 50px;
+        height: 40px;
+        width: 40px;
       }
       .marquee-slider{
         padding: 20px 0 0;

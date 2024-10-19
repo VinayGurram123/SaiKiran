@@ -140,6 +140,12 @@
   .redhat h3{
     font-family: redhat;
   }
+  .rufina h3{
+  font-family: rufina;
+  }
+  .graphie h3{
+    font-family: graphie;
+    }
 /* .secondery-font .font-name,
 .secondery-font .alphabets h3 {
   font-family: League;
@@ -340,6 +346,39 @@ color: #fff;
   background: #fff;
   color: #0b0b0b;
 }
+.trademarking .box1{
+  background: #0064FF;
+  color: #fff;
+}
+.trademarking .box2{
+  background: #081014;
+  color: #fff;
+}
+.trademarking .box3{
+  background: #012152;
+  color: #fff;
+}
+.trademarking .box4{
+  background: #fff;
+  color: #000;
+}
+.ai-interior .box1{
+  background: #006EA3;
+  color: #fff;
+}
+.ai-interior .box2{
+  background: #252525;
+  color: #fff;
+}
+.ai-interior .box3{
+  background: #1976D2;
+  color: #fff;
+}
+.ai-interior .box4{
+  background: #fff;
+  color: #000;
+}
+
 #galary .no-padding{
     padding: 0;
     background: none;
@@ -554,5 +593,8 @@ color: #fff;
   }
   .project7 .box3 .trio-color span, .project7 .box4 .trio-color span {
     padding: 19px 14px 14px;
+}
+.alphabets{
+  text-align: start;
 }
 }

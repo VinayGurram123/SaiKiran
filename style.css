@@ -20,7 +20,6 @@
     width: 64px;
     margin: 0 14px;
     vertical-align: bottom;
-    margin-bottom: 10px;
 }
   .banner-btns img{
     max-width: 100%;
@@ -102,7 +101,7 @@
   .project-head .btn{
     border: 1px solid #B0B0B0;
     border-radius: 64px;
-    padding: 15px 32px;
+    padding: 15px 20px;
   }
 
   
@@ -572,6 +571,11 @@ ul li .list-main{
   }
 } 
 
+@media only screen and (max-width: 1080px) {
+.list-main .img-text-ex{
+  max-width: 70%;
+}
+}
 @media only screen and (max-width: 1024px) {
   .banner-text h1{
     font-size: 44px;
@@ -618,7 +622,7 @@ ul li .list-main{
   padding: 12px 21px;
 }
 .project-head .btn{
-  padding: 8px 14px;
+  padding: 12px 20px;
 
 }
 .list-section {
@@ -763,8 +767,9 @@ animation: slide2 3s linear infinite;
 @media only screen and (max-width: 570px) {
 
 .ex-dates {
-  width: 100%;
-  padding-left: 74px;
+  width: 50%;
+  display: flex;
+  justify-content: end;
 }
 .banner-text br{
   display: none;
@@ -783,6 +788,14 @@ animation: slide2 3s linear infinite;
 }
 .case-study h2{
   font-size: 28px;
+}
+.list-main .img-text-ex{
+  max-width: 100%;
+}
+.ex-dates{
+  width: 100%;
+  display: block;
+  padding-left: 70px;
 }
   
 }
@@ -858,4 +871,20 @@ animation: slide2 3s linear infinite;
     margin-top: 72px;
     padding: 10px 0;
   }
+}
+
+@media only screen and (max-width: 375px) {
+
+  .contact-btn a {
+    padding: 15px 12px;
+}
+.write-mesg a {
+  padding: 12px 20px;
+}
+.text-with-btn .btn {
+  padding: 10px 16px;
+}
+.project-head .btn {
+  padding: 10px 16px;
+}
 }

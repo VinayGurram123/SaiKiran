@@ -44,6 +44,10 @@
     gap: 10px;
     margin-top: 26px;
 }
+.research-imgs img{
+    width: 100%;
+    height: auto;
+}
 .grid-main{
     margin-top: 40px;
 }
@@ -310,6 +314,9 @@ font-weight: 700;
     }
     .alphabets{
         text-align: start;
+    }
+    .title{
+        margin-bottom: 12px;
     }
    
 }

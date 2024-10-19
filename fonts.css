@@ -42,6 +42,14 @@
   font-family: lato;
   src: url(./fonts/Lato/Lato-Regular.ttf);
 }
+@font-face {
+  font-family: rufina;
+  src: url(./fonts/Rufina/Rufina-Regular.ttf);
+}
+@font-face {
+  font-family: graphie;
+  src: url(./fonts/Graphie/Graphie-Regular.otf);
+}
 .Poppins {
     font-family: popins;
   }
@@ -74,4 +82,10 @@
   }
   .lato{
   font-family: lato;
+  }
+  .rufina{
+  font-family: rufina;
+  }
+  .graphie{
+  font-family: graphie;
   }
